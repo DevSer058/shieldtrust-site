@@ -1,0 +1,21 @@
+.hero{
+    padding: 6rem 1.5rem;
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: white;
+}
+
+.content{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.cta{
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background: white;
+    color: #1e3a8a;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}

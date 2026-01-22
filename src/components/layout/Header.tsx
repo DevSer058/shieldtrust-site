@@ -1,8 +1,10 @@
+import styles from "./Header.module.css";
+
 export default function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <nav>
-        <span>ShieldTrust</span>
+        <span className={styles.brand}>ShieldTrust</span>
       </nav>
     </header>
   );
